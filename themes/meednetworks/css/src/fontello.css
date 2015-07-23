@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../../fonts/fontello.eot?76870528');
+  src: url('../../fonts/fontello.eot?76870528#iefix') format('embedded-opentype'),
+       url('../../fonts/fontello.woff?76870528') format('woff'),
+       url('../../fonts/fontello.ttf?76870528') format('truetype'),
+       url('../../fonts/fontello.svg?76870528#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../../fonts/fontello.svg?76870528#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-facebook:before { content: '\e800'; } /* '' */
+.icon-network:before { content: '\e801'; } /* '' */
+.icon-users:before { content: '\e802'; } /* '' */
+.icon-facebook-squared:before { content: '\e803'; } /* '' */
+.icon-compass:before { content: '\e804'; } /* '' */
+.icon-thumbs-up:before { content: '\e805'; } /* '' */
+.icon-play:before { content: '\e806'; } /* '' */
+.icon-cogs:before { content: '\e807'; } /* '' */
+.icon-sliders:before { content: '\e808'; } /* '' */
+.icon-edit:before { content: '\e809'; } /* '' */
+.icon-angle-up:before { content: '\e80a'; } /* '' */
+.icon-angle-right:before { content: '\e80b'; } /* '' */
+.icon-angle-left:before { content: '\e80c'; } /* '' */
+.icon-angle-down:before { content: '\e80d'; } /* '' */
+.icon-search:before { content: '\e80e'; } /* '' */
+.icon-cancel:before { content: '\e80f'; } /* '' */
+.icon-plus:before { content: '\e810'; } /* '' */
+.icon-gplus:before { content: '\e811'; } /* '' */
+.icon-gplus-squared:before { content: '\e812'; } /* '' */
+.icon-linkedin:before { content: '\e813'; } /* '' */
+.icon-linkedin-squared:before { content: '\e814'; } /* '' */
+.icon-share:before { content: '\e815'; } /* '' */
+.icon-new-tab:before { content: '\e816'; } /* '' */
+.icon-eye-slash:before { content: '\e817'; } /* '' */
+.icon-bullseye:before { content: '\e818'; } /* '' */
+.icon-question-circled:before { content: '\e819'; } /* '' */
+.icon-twitter-squared:before { content: '\e81a'; } /* '' */
+.icon-twitter:before { content: '\e81b'; } /* '' */
+.icon-justify:before { content: '\e81c'; } /* '' */
+.icon-pinterest:before { content: '\e81d'; } /* '' */
+.icon-pinterest-squared:before { content: '\e81e'; } /* '' */
+.icon-github-squared:before { content: '\e81f'; } /* '' */
+.icon-github:before { content: '\e820'; } /* '' */
+.icon-lightbulb:before { content: '\e821'; } /* '' */
+.icon-cubes:before { content: '\e822'; } /* '' */
+.icon-comment:before { content: '\e823'; } /* '' */
+.icon-lifebuoy:before { content: '\e824'; } /* '' */
+.icon-paper-plane-empty:before { content: '\e825'; } /* '' */
+.icon-puzzle:before { content: '\e826'; } /* '' */
+.icon-gauge:before { content: '\e827'; } /* '' */
+.icon-flow-tree:before { content: '\e828'; } /* '' */
+.icon-link:before { content: '\e829'; } /* '' */
+.icon-ok:before { content: '\e82a'; } /* '' */
+.icon-location:before { content: '\e82b'; } /* '' */
+.icon-quote-left:before { content: '\e82c'; } /* '' */
+.icon-quote-right:before { content: '\e82d'; } /* '' */

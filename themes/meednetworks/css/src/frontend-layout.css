@@ -1,0 +1,189 @@
+/*! Adminre v.1.2.0 - layout.css
+ *
+ * @note : Avoid altering this file. Any enhancement should be done in `custom.css`
+ * @author : JohnPozy
+ * @author URL : http://themeforest.net/user/pampersdry
+ */
+html {
+  position: relative;
+  z-index: 1;
+  min-height: 100%;
+}
+html body {
+  font-size: 13px;
+  min-height: 100%;
+  background-color: #ecf0f1;
+  overflow-x: hidden;
+}
+.app-loading,
+.sidebar-open-rtl,
+.sidebar-open-ltr {
+  overflow: hidden;
+}
+/* ----------------------------
+ *
+ * Template Header - screen-sm
+ *
+ * --------------------------- */
+@media (min-width: 768px) {
+  .frontend {
+    /* Header Main */
+  }
+  .frontend #header.navbar .navbar-header {
+    background-color: transparent;
+  }
+  .frontend #header.navbar .navbar-header > .navbar-brand > .logo-figure {
+    background-image: url("../../img/logo/logo-figure.png");
+  }
+  .frontend #header.navbar .navbar-header > .navbar-brand > .logo-text {
+    background-image: url("../../img/logo/logo-text.png");
+  }
+  .frontend #header.navbar .navbar-toolbar .navbar-collapse > .navbar-nav > .dropdown > .dropdown-menu {
+    margin-top: 1px;
+    left: 0px;
+    border-top-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .frontend #header.navbar .navbar-toolbar .navbar-collapse > .navbar-nav > .dropdown > .dropdown-menu > li > a {
+    padding: 8px 15px !important;
+  }
+  .frontend #header.navbar .navbar-toolbar .navbar-collapse > .navbar-nav > .dropdown > .dropdown-menu > li + li {
+    border-top: 1px solid #f2f5f5;
+  }
+  .frontend #header.navbar .navbar-toolbar .navbar-collapse > .navbar-nav > .dropdown > .dropdown-menu .dropdown-menu li > a {
+    padding: 6px 15px !important;
+  }
+  .frontend #header.navbar .navbar-toolbar .navbar-collapse > .navbar-nav > .dropdown > a {
+    /*&.active {
+                                    &:after {
+                                        border-bottom: 2px solid @accent-base-color !important;
+                                    }
+                                }*/
+  }
+  .frontend #header.navbar .navbar-toolbar .navbar-collapse > .navbar-nav > .dropdown > a:before,
+  .frontend #header.navbar .navbar-toolbar .navbar-collapse > .navbar-nav > .dropdown > a:after {
+    position: absolute;
+    content: "";
+    left: 0px;
+    right: 0px;
+    bottom: -1px;
+    width: auto;
+    height: auto;
+    border-style: solid;
+    border-width: 0px;
+    margin: 0px !important;
+  }
+  .frontend #header.navbar .navbar-toolbar .navbar-collapse > .navbar-nav > .dropdown.open > a:after {
+    border-bottom: 2px solid #00b6ad !important;
+  }
+  .frontend #header.navbar .navbar-toolbar .navbar-collapse > .navbar-nav.navbar-right > li > .dropdown-menu {
+    left: auto;
+    right: 0px;
+  }
+}
+/* ----------------------------
+ *
+ * Infobar
+ *
+ * --------------------------- */
+.infobar {
+  position: relative;
+  z-index: 1035;
+  height: 36px;
+  background-color: #444444;
+}
+.infobar + .navbar-fixed-top {
+  top: 36px;
+}
+/* ----------------------------
+ *
+ * Slider
+ *
+ * --------------------------- */
+#slider + #main {
+  padding-top: 0px !important;
+}
+/* ----------------------------
+ *
+ * Template Main
+ *
+ * --------------------------- */
+/* Template Section */
+.frontend .section {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.frontend .section .section-header {
+  margin-top: -35px;
+  margin-bottom: 40px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+.frontend .section .section-header .section-title {
+  position: relative;
+  margin: 0px;
+}
+.frontend .section .section-header .section-title:after {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 0px;
+  width: 50px;
+  border-bottom: 2px solid #00b6ad;
+}
+.frontend .section .section-header.section-header-bordered .section-title:before {
+  content: "";
+  position: absolute;
+  bottom: -16px;
+  left: 0px;
+  right: 0px;
+  border-bottom: 1px dotted #cfd9db;
+}
+.frontend .section .section-header.text-center .section-title:after {
+  left: 50%;
+  margin-left: -25px;
+}
+.frontend .section .section-header.text-right .section-title:after {
+  left: auto;
+  right: 0px;
+}
+/* ----------------------------
+ *
+ * Container screen-lg
+ *
+ * --------------------------- */
+@media (min-width: 1200px) {
+  .frontend .container {
+    width: 1024px;
+  }
+}
+/* ----------------------------
+ *
+ * Footer
+ *
+ * --------------------------- */
+.frontend footer#footer {
+  position: relative;
+  background-color: #444444;
+  padding-top: 25px;
+  color: #e6e6e6;
+}
+.frontend footer#footer > .footer-bottom {
+  background-color: #2b2b2b;
+  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/*===================================== END FRONTEND LAYOUT =====================================*/
+#partners .item {
+  margin-left: 2px;
+  position: relative;
+}
+#partners .item img {
+  margin-left: auto;
+  margin-right: auto;
+}
+#partners .item .color-image { display: none; }
+#partners .item:hover img { display: none; }
+#partners .item:hover .color-image { display: block; }
