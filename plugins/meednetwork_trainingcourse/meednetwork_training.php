@@ -5,7 +5,7 @@
  * The WordPress Widget Boilerplate is an organized, maintainable boilerplate for building widgets using WordPress best practices.
  *
  * @package  Meed Networks Training Course Series
- * @author    Yemi Agbetunsin <yemi@ultractiv.com>
+ * @author    Abiodun Shuaib <abiodun@golden0.com>
  * @license   GPL-2.0+
  * @link      http://ultractiv.com
  * @copyright 2015 Ultractiv LLC
@@ -15,7 +15,7 @@
  * Plugin URI:        #
  * Description:       Post Custom courses
  * Version:           1.0.0
- * Author:            Yemi Agbetusnin <yemi@ultractiv.com>
+ * Author:            Abiodun Shuaib <abiodun@golden0.com>
  * Author URI:        http://ultractiv.com
  * Text Domain:       photo
  * License:           GPL-2.0+
